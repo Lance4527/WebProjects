@@ -83,3 +83,26 @@ footer {
     background-color: #d5edd5;
     width: 90vw;
 }
+/*Media Query */
+@media (max-width: 720px) {
+    .quote {
+    font-style: italic;
+    padding-top: 5vw;
+    width: 30%;
+    font-size: 1em;
+    padding-left: 20%;
+}
+.time_line_items {
+    padding-left: 10%;
+}
+.time_line_items li {
+    width: 60%;
+    padding-bottom: 1%;
+    font-size: 1em;
+}
+.link {
+    padding-left: 30%;
+    width: 40%;
+    font-size: 1em;
+}
+}
